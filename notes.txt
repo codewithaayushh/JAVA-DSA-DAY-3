@@ -1,0 +1,70 @@
+DAY 04 - JAVA CONDITIONAL STATEMENTS
+====================================
+
+This folder contains beginner Java examples about making decisions in a
+program. The examples use if, else if, else, the ternary operator, and
+switch-case statements. Several programs read values from the keyboard with
+Scanner; others use values written directly in the code.
+
+MAIN FOLDER
+-----------
+
+calculator.java
+	Reads two integers and an operator (+, -, *, /, or %) and uses a switch
+	statement to perform the selected calculation.
+
+elseiff.java
+	Reads an age and demonstrates an if / else-if / else chain to classify it
+	as an adult, teenager, or child. Note: age 18 is classified as Adult by the
+	first condition.
+
+ifelsee.java
+	Uses a fixed age value to demonstrate a basic if-else decision about
+	whether the person can drive.
+
+incometaxCal.java
+	Reads an income and calculates tax using three income bands: below 500,000,
+	from 500,000 to below 1,000,000, and 1,000,000 or more.
+
+largestof3.java
+	Reads three integers and uses if / else-if / else to identify which
+	position contains the greatest number.
+
+oddeven.java
+	Reads an integer and checks its remainder when divided by 2 to decide
+	whether it is even or odd.
+
+printlargest.java
+	Compares two fixed integer values and prints which one is greater, using
+	if-else.
+
+switchcase.java
+	Reads a number and uses switch-case to print a weekday. Cases 1 through 6
+	are listed explicitly; every other number reaches the default case.
+
+ternery.java
+	Demonstrates the ternary operator to print Pass or Fail based on a fixed
+	score. The example uses 33 as the passing threshold.
+
+PRACTICE QUESTION FOLDER
+------------------------
+
+Practice question/posneg.java
+	Reads an integer and practices checking whether a number is positive or
+	negative. The current condition is num > 1, so it labels 1 and 0 as
+	negative too; use num > 0 for the usual positive-number check.
+
+Practice question/solution.java
+	Empty file reserved for a practice solution.
+
+QUICK CONCEPT NOTES
+-------------------
+
+- if runs a block when its condition is true.
+- else provides a fallback when the preceding if condition is false.
+- else if checks another condition after an earlier condition was false.
+- switch selects a matching case; break prevents execution from continuing
+	into the next case.
+- The ternary operator has the form: condition ? valueWhenTrue : valueWhenFalse.
+- The % operator gives the remainder after division; it is useful for
+	checking divisibility, including odd and even numbers.
